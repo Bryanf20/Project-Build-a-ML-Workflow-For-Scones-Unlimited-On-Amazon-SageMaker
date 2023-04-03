@@ -10,3 +10,20 @@ In this project, you’ll use AWS Sagemaker to build an image classification mod
 * Step 2: Model training and deployment
 * Step 3: Lambdas and step function workflow
 * Step 4: Testing and evaluation
+
+## Content
+### lambda.py
+Contains three lambda functions for
+* Serialization
+* Classification
+* Filtering
+
+### stepfunction.json
+JSON file of created step function from lambda functions
+
+### starter.ipynb
+Notebook file with complete solution and key results displayed
+
+### Two image file
+* One shows a succesful step function execution
+* The other is a failed step function execution
